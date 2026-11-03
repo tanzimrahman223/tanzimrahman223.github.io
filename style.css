@@ -4,3 +4,5 @@
 .art .project-screenshot{width:100%;height:100%;object-fit:contain;display:block;background:#102029}.detail-screenshot{display:block;width:100%;height:auto;border-radius:5px;margin:24px 0}
 
 .grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:900px){.grid{grid-template-columns:1fr}}
+
+.case-study{padding:38px 0 70px;max-width:1060px;margin:auto}.case-study section{padding:40px 0;border-bottom:1px solid var(--line)}.case-study p{max-width:760px}.case-study figure{margin:28px 0}.case-study figure img{width:100%;max-height:640px;object-fit:contain;background:#101b22;border:1px solid var(--line);border-radius:7px;display:block}.case-study figcaption{font-size:13px;color:var(--muted);margin-top:10px;line-height:1.5}.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.case-grid figure img{height:340px}.case-study video{width:100%;max-height:650px;background:#000;border-radius:7px}.case-study .page-head h1{font-size:clamp(42px,6vw,70px)}@media(max-width:700px){.case-grid{grid-template-columns:1fr}.case-grid figure img{height:auto}.case-study .strip{flex-direction:column;gap:8px}}
